@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyCMS.common\MyCMS.common.csproj" />
+    <ProjectReference Include="..\MyCMS.DAL\MyCMS.DAL.csproj" />
+    <ProjectReference Include="..\MyCMS.Models\MyCMS.Models.csproj" />
+  </ItemGroup>
+
+</Project>
